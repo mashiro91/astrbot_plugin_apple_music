@@ -8,3 +8,4 @@ author: mashiro
 support_platforms:
   - aiocqhttp
 astrbot_version: ">=4.16,<5"
+repo: https://github.com/mashiro91/astrbot_plugin_apple_music
