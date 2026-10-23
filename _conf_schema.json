@@ -1,0 +1,27 @@
+{
+  "region": {
+    "description": "搜索使用的 Apple Music 店面。注意：CN 店面搜索接口会返回空结果，请用 US / JP / HK / TW",
+    "type": "string",
+    "default": "US"
+  },
+  "limit": {
+    "description": "每次搜索的候选数量（取第一个带试听片段的）",
+    "type": "int",
+    "default": 5
+  },
+  "send_artwork": {
+    "description": "是否附带专辑封面图",
+    "type": "bool",
+    "default": true
+  },
+  "send_voice": {
+    "description": "是否发送语音（关闭则只发文字信息）",
+    "type": "bool",
+    "default": true
+  },
+  "max_duration_note": {
+    "description": "说明：试听片段固定由 Apple 提供（约 30 秒），此配置仅用于文案展示",
+    "type": "string",
+    "default": "30 秒试听"
+  }
+}

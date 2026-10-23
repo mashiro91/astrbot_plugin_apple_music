@@ -1,0 +1,10 @@
+name: astrbot_plugin_apple_music
+display_name: Apple Music 点歌
+short_desc: /点歌 关键词 → 从 Apple Music 目录搜索，并以语音消息发送 30 秒试听片段
+desc: 调用 Apple 官方 iTunes 公开目录接口搜索歌曲，取官方 30 秒试听片段，通过 OneBot 的 record 段以语音消息发送；附带封面、专辑与时长信息。注：Apple Music 完整曲目受 DRM 保护，任何第三方均无法获取音频本体，因此只能发送官方试听片段。
+help: 发送「/点歌 歌名」或「/点歌 歌名 歌手」即可；不带参数时返回用法提示。
+version: v1.0.0
+author: mashiro
+support_platforms:
+  - aiocqhttp
+astrbot_version: ">=4.16,<5"
